@@ -45,10 +45,10 @@ While working with various clients hosted on WordPress, we kept implementing cus
 ### Additional Features
 - **Scheduling**:  
   You can schedule your promotions to run down to the minute! Includes out-of-the-box support for Cloudflare Cache busting, allowing you to plan your campaigns and promotions ahead of time. Everything runs on autopilot without the need to log in and manually deploy or remove a promotion.  
-  ![Screenshot](https://cln.sh/1sQkKnGJ) <!-- Add link to screenshot -->
+  [Example](https://cln.sh/1sQkKnGJ) <!-- Add link to screenshot -->
 
 - **EN Shortcode and Gutenberg Support**:  
   The Promotions Plugin includes its own shortcodes and Gutenberg block so you can embed any EN page built with our ENgrid page template framework inline with your content. Context is king, and this feature allows you to include your action alongside the call to it, removing the need to link off to dedicated pages.
 
 - **User-Friendly Interface for Content Admins**:  
-  ![Screenshot](https://cln.sh/1LPyNnSb) <!-- Add link to screenshot -->
+  [Example](https://cln.sh/1LPyNnSb) <!-- Add link to screenshot -->
