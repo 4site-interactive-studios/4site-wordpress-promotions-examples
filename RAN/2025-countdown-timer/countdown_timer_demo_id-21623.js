@@ -89,8 +89,8 @@
       mutationsList.forEach((mutation) => {
           mutation.addedNodes.forEach((node) => {
               // Check if the added node has the attribute `promotion-id="108611"`
-              if (node.nodeType === 1 && node.hasAttribute('promotion-id') && node.getAttribute('promotion-id') === '108611') {
-                  debugLog('Element with promotion-id="108611" has been added to the page');
+              if (node.nodeType === 1 && node.hasAttribute('promotion-id') && node.getAttribute('promotion-id') === '21623') {
+                  debugLog('Element with promotion-id="21623" has been added to the page');
 
                   // Create the new countdown bar div
                   const newDiv = document.createElement('div');
