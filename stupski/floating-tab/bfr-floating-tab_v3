@@ -1,0 +1,47 @@
+#fs-donation-tab {
+	leading-trim: both;
+	text-edge: cap;
+	font-family:  Poppins !important;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 1.92px;
+	text-transform: lowercase;
+	border-radius: 6px 6px 0 0;
+	/*padding: 12px 12px 8px 16px;*/
+	padding: 12px 16px 8px 16px;
+	transition: all 0.3s;
+	z-index:100;
+}
+#fs-donation-tab:hover {
+    background-color: #E54873!important;
+}
+#fs-donation-tab:after {
+	position: absolute;
+	top: 20%;
+	right: 14px;
+	content: ' ';
+	background-image: url( 
+	<path d="M 69.245 38.312 c -1.104 0 -2 0.896 -2 2 v 6.505 c 0 12.266 -9.979 22.244 -22.245 22.244 s -22.245 -9.979 -22.245 -22.244 v -6.505 c 0 -1.104 -0.896 -2 -2 -2 s -2 0.896 -2 2 v 6.505 c 0 13.797 10.705 25.134 24.245 26.16 V 86 h -9.126 c -1.104 0 -2 0.896 -2 2 s 0.896 2 2 2 h 22.252 c 1.104 0 2 -0.896 2 -2 s -0.896 -2 -2 -2 H 47 V 72.978 c 13.54 -1.026 24.245 -12.363 24.245 -26.16 v -6.505 C 71.245 39.208 70.35 38.312 69.245 38.312 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 51.21 41.631 c 0 -1.104 0.896 -2 2 -2 h 7.172 v -7.727 H 50.278 c -1.104 0 -2 -0.896 -2 -2 s 0.896 -2 2 -2 h 10.104 v -7.728 H 53.21 c -1.104 0 -2 -0.896 -2 -2 s 0.896 -2 2 -2 h 7.172 v -0.795 C 60.382 6.9 53.481 0 45 0 S 29.618 6.9 29.618 15.382 v 0.795 h 7.172 c 1.104 0 2 0.896 2 2 s -0.896 2 -2 2 h -7.172 v 7.728 h 9.126 c 1.104 0 2 0.896 2 2 s -0.896 2 -2 2 h -9.126 v 7.727 h 7.172 c 1.104 0 2 0.896 2 2 s -0.896 2 -2 2 h -7.172 v 0.795 c 0 8.482 6.9 15.382 15.382 15.382 s 15.382 -6.9 15.382 -15.382 v -0.795 H 53.21 C 52.105 43.631 51.21 42.736 51.21 41.631 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 69.245 33.836 c -1.104 0 -2 -0.896 -2 -2 V 18.177 c 0 -1.104 0.896 -2 2 -2 s 2 0.896 2 2 v 13.659 C 71.245 32.94 70.35 33.836 69.245 33.836 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 20.755 33.836 c -1.104 0 -2 -0.896 -2 -2 V 18.177 c 0 -1.104 0.896 -2 2 -2 s 2 0.896 2 2 v 13.659 C 22.755 32.94 21.86 33.836 20.755 33.836 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 10.982 30.381 c -1.104 0 -2 -0.896 -2 -2 v -6.841 c 0 -1.104 0.896 -2 2 -2 s 2 0.896 2 2 v 6.841 C 12.982 29.486 12.087 30.381 10.982 30.381 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 79.018 30.472 c -1.104 0 -2 -0.896 -2 -2 v -6.841 c 0 -1.104 0.896 -2 2 -2 s 2 0.896 2 2 v 6.841 C 81.018 29.577 80.122 30.472 79.018 30.472 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+);
+	display: block;
+	width: 30px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transform: rotate(90deg);
+	transition: width 0.6s, height 0.3s;
+}
+#fs-donation-tab:hover:after {
+	top: 6px;
+	right: 14px;
+        width: 32px;
+	height: 44px;
+	/* background-image: url('); */
+}
