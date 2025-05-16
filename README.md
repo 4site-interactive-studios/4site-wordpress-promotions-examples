@@ -3,6 +3,8 @@ This repo stores custom code for the 4Site Plugin.
 - A/B Test - RAW Promo Type code
 - Countdown Timer JSS & CSS
 
+[Working Demo Doc](https://docs.google.com/document/d/13rcd8HOa25BVee1nFlH74Xhp_O1v0HfS7mFzr1BEC_M/edit?tab=t.0#heading=h.bctmae58fy4f)
+
 # 4Site Studios - WordPress Promotions Plugin
 
 While working with various clients hosted on WordPress, we kept implementing custom solutions for them to launch fundraising lightboxes, signup lightboxes, and other engagement tools. Eventually, we bundled them all together into what we call the **"Promotions Plugin"**. This plugin integrates with our Engaging Networks forms to create seamless user experiences along with offering a number of standalone promotions you can run.
