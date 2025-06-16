@@ -7,7 +7,9 @@
 - https://www.ran.org/4site-promo-test-page/
 
 
-## Campaign Video - World Rainforest Day 
+## lighbox
+- **Campaign Video - World Rainforest Day Video**
+- ``lightbox-video-code.js`` this needs to be added to the promo to work
 
 
 ## RAN Countdown Timer
