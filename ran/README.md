@@ -7,9 +7,11 @@
 - https://www.ran.org/4site-promo-test-page/
 
 
-## lighbox
-- **Campaign Video - World Rainforest Day Video**
-- ``lightbox-video-code.js`` this needs to be added to the promo to work
+## Video
+- **Simple Video - World Rainforest Day Video**
+- Promo-Type is RAW https://cln.sh/GYvzGDsN
+- Test Promo in RAN's Website (must be logged in to see): https://www.ran.org/wp-admin/post.php?post=20158&action=edit
+- ``simple-video-RAW.js`` this needs to be added to the promo to work
 
 
 ## RAN Countdown Timer
@@ -20,7 +22,6 @@ Located in the `count-down-timer/` folder:
 
 
 ## Notes
-- 
 - 
 
 
