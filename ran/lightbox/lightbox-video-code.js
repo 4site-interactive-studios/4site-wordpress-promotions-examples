@@ -1,7 +1,8 @@
 // RAN (Margot) wrote their own custom code to show this pop-up as a "RAW Code" promotion: https://www.ran.org/wp-admin/post.php?post=20158&action=edit
+//The promo-type is RAW: https://cln.sh/GYvzGDsN
 
 
-Script (You'll also need to load in or replace jQuery)
+//Add to Javascript Field - Script (You'll also need to load in or replace jQuery)
 <script>
   jQuery( document ).ready(function() { 
 
@@ -30,7 +31,11 @@ function lightbox_close() {
   lightBoxVideo.pause();
 }
 </script>
-HTML
+
+
+  
+
+//Add to HTML Field - Don't forget to upate video code for new video
 <div id="light">
   <a class="boxclose" id="boxclose"></a>
   <a href="https://act.ran.org/page/68358/donate/1?ea.tracking.id=w_lb&en_og_source=w_lb">
@@ -42,7 +47,11 @@ HTML
 </div>
 <a href="https://act.ran.org/page/68358/donate/1?ea.tracking.id=w_lb&en_og_source=w_lb"><div id="wrd-button">Give Today</div></a>
 <div id="fade"></div>
-Custom CSS
+
+
+
+
+//Custom CSS - This is RAN's Branding - update if used for other clients
 #fade {
   display: none;
   position: fixed;
