@@ -12,6 +12,7 @@
 - Promo-Type is RAW https://cln.sh/GYvzGDsN
 - Test Promo in RAN's Website (must be logged in to see): https://www.ran.org/wp-admin/post.php?post=20158&action=edit
 - ``simple-video-RAW.js`` this needs to be added to the promo to work
+- Productive task for this project: https://app.productive.io/2650-4site-interactive-studios-inc/projects/86431/tasks/task/4880331
 
 
 ## RAN Countdown Timer
