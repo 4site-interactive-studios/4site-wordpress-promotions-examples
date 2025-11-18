@@ -1,0 +1,21 @@
+
+/* Set Max Width field of EN lightbox Promo to 500px */
+
+@media (max-width: 839px) {
+    .fs-signup-lightbox.one-col .fs-signup-container {
+        max-height: unset;
+    }
+}
+
+/* No need to scale this modal, force it to be full size */
+@media screen and (max-height: 510px) {
+    .fs-signup-lightbox-content {
+        transform: scale(1);
+    }
+}
+
+@media screen and (min-height: 461px) and (max-height: 700px) {
+    .fs-signup-lightbox-content {
+        transform: scale(1);
+    }
+}
