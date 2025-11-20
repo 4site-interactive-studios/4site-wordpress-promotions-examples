@@ -52,9 +52,9 @@ function triggerPromotions() {
       });
     } else if (myPromotion == "spinner") {
       console.log(
-       // TODO: update this name and ID number when we have it "Triggering Promotion #104047: 2024 - Multistep Lightbox - Video Asset"
+       "Triggering Promotion #146038: 2025 – TEST – GT – Splash Page"
       );
-      // TODO: update this ID number when we have it window.triggerPromotion(104047);
+      window.triggerPromotion(146038);
     }  else {
       console.log(
         "The promotion chosen is outside the array and nothing was triggered"
