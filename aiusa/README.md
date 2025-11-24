@@ -12,7 +12,7 @@ This README is not fully up to date but has an outline of what we hope to track 
 
 ## Countdown Timer
 - In subfolder `2024-giving-tuesday`:
-    - **[README.md](aiusa/countdown-timer/2024-giving-tuesday/README.md) - Overview and recap of 2024 GT test w/ report details
+    - **[README.md](aiusa/countdown-timer/2024-giving-tuesday/README.md)** - Overview and recap of 2024 GT test w/ report details
     - **2024-GT-countdown-vs-control-RAW.js** - JavaScript that runs for a/b test
     - **AIUSA-countdown-promo-id-108611.css** - Countdown Timer's CSS styling
     - **AIUSA-countdown-promo-id-108611.js** - The js that enables the countdown functionality (Daily 24 hour reset)
