@@ -19,12 +19,12 @@
     - **AIUSA-countdown-promo-id-108611.js** - The js that enables the countdown functionality (Daily 24 hour reset)
     - **AIUSA-countdown-floating-tab-promo-id-109912.css** - CSS for the floating Tab during GT testing
 
-## AIUSA Repo Details
-- Static Vs. Video Test_README - All project details: 
-- Floating Tab
-  - CSS for styling the AIUSA branded Floating Tab, includes their SVG flame
-- Misc_RAW_Files
-  - Houses the RAW files for A/B tests that we have run for AIUSA
+## Repo Content Details
+### Folders Details
+-  **Floating Tab** - CSS for styling the AIUSA branded Floating Tab, includes their SVG flame
+-  **Misc_RAW_File** - Houses the RAW files for A/B tests that we have run for AIUSA (this could be reorginized however anyone prefer)
+### File Details (Orphaned Files)
+- **[Static Vs. Video Test](/aiusa/Static-vs-Video_README.md)**- Overview and recap of test w/ report details
 
 
 ## Test pages on AIUSA's site
