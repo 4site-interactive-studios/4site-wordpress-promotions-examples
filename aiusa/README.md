@@ -20,7 +20,7 @@
     - **AIUSA-countdown-floating-tab-promo-id-109912.css** - CSS for the floating Tab during GT testing
 
 ## Repo Content Details
-### Folders Details
+### Folder Details
 -  **Floating Tab** - CSS for styling the AIUSA branded Floating Tab, includes their SVG flame
 -  **Misc_RAW_File** - Houses the RAW files for A/B tests that we have run for AIUSA (this could be reorginized however anyone prefer)
 ### File Details (Orphaned Files)
