@@ -1,7 +1,11 @@
 # FWW & FWA Promo
+The promo plugin has been integrated in FWW & FWA's wordpress site. 
 
-### Task #1579 
-`https://app.productive.io/2650-4site-interactive-studios-inc/tasks/8109254`
+## Promo-Types & Features
+- One-col donation
+- Multistep donation 
+- Advocacy, need to check if this has been built out. 
+
 
 ### FWW & FWA - Important Plugin Note:
 > [!TIP]
