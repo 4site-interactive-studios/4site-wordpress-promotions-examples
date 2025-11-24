@@ -1,5 +1,5 @@
 
-# AIUSA Promo Plugin Projects 
+# AIUSA Promo Plugin Projects & Repo Index
 
 
 
