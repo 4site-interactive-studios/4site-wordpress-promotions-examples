@@ -1,13 +1,14 @@
 
 # AIUSA Promo Plugin Projects 
-This README is not fully up to date but has an outline of what we hope to track in hwew .
 
 
 
 ## AIUSA available Promo-Types and Plugin Features: 
 - Multistep Donation Promo - EN integration
-- Floating Tab 
-- Subscription Bar integrated with Gravity Forms
+- Floating Tab w/ SVG Animated Logo
+- Floating Email Signup
+    - Integrated with Gravity Forms
+- CTA Lightbox
 
 
 ## Countdown Timer
