@@ -29,6 +29,7 @@
     - **AIUSA-countdown-promo-id-108611.js** - The js that enables the countdown functionality (Daily 24 hour reset)
     - **AIUSA-countdown-floating-tab-promo-id-109912.css** - CSS for the floating Tab during GT testing
 
+### Static vs. Video
 
 
 ## Test pages on AIUSA's site
