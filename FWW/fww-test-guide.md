@@ -174,7 +174,7 @@ Recommended Promo Naming conventions:
 
    - Instead of selecting "EN Lightbox" select "EN Multistep Lightbox" as your promo-type.
 
-3. Review this [Demo Multistep](https://www.foodandwaterwatch.org/wp-admin/post.php?post=12948&action=edit) as a good base for what should be configured for the multistep version. 
+3. Review this [Demo Multistep](https://www.foodandwaterwatch.org/wp-admin/post.php?post=12948&action=edit) as a good base for what should be configured for the multistep version. Must be logged into FWW.org Wordpress to see. 
 
 4. Match the same display rules as the Control so both will to show to the same audience.
 
