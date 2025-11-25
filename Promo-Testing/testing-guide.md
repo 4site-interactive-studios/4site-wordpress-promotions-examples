@@ -11,9 +11,13 @@ The structure we are aiming for is when setting up an A/B test:
 
 - Ad Blocker Version: Fallback shown to visitors who block promos
 
-- Raw “Controller” Promo: JavaScript that randomly assigns visitors to A or B and handles the ad blocker fallback
+- Raw “Test Controller” Promo: JavaScript that randomly assigns visitors to A or B and handles the ad blocker fallback
 
-4Site will provide or review the JavaScript for the controller promo. Your main focus is on setting up the Engaging Networks forms and the three promo variations.
+4Site will provide or review the [JavaScript](/Promo-Testing/RAW-AB-test-guide.md) for the Test Controller promo. 
+
+This guide's main focus is on setting up the Engaging Networks forms and the three promo variations.
+
+Please see [RAW "Test Controller" guide](/Promo-Testing/RAW-AB-test-guide.md) to review how to edit the javascript that enables the test.
 
 ---
 
