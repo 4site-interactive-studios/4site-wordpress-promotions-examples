@@ -26,13 +26,15 @@ Please see [RAW "Test Controller" guide](/4site-promo-guides_documentation/RAW-t
 Before you start, confirm:
 
 - **What is the Control/Variation A?**
-  Example: The existing multi step donation lightbox.
+  Example: FWW is testing One-Col vs Multistep.
+  Variation A would be one-col, since it has been used before, can be referred to as Control as well
+  
 
 - **What is the Test Variant/Variation B?**
-  Example: The existing multi step donation lightbox.
+  Example: The multistep donation lightbox.
 
 - **What should Ad Blocker users see?**
-  In most cases, we recommend giving them **the Control experience**, but tracked separately so the data does not interfere with the test.
+  In most cases, we recommend giving them **the Control experience**, but important to create a seperate donation form so the data does not interfere with the test.
 
 Have those decisions made before you build anything.
 
@@ -44,11 +46,11 @@ You will need a separate Engaging Networks page for each variation. This keeps r
 
 1. Create three Engaging Networks pages:
 
-   - **Form A – Control**
+   - **Form A – Control Variant** - One-Col Donation form
 
-   - **Form B – Variant**
+   - **Form B – Test Variant** - Multistep donation form
 
-   - **Form A – AdBlocker** (a copy of the Control, but clearly labeled as the ad blocker version)
+   - **Form A – AdBlocker** One-Col Donation AdBlocker form (a copy of the Control, but clearly labeled as the ad blocker version)
 
 2. Update:
 
@@ -68,37 +70,46 @@ Next, you will create four promos in WordPress that correspond to the three EN f
 
 You will create:
 
-- Promo A: Control/Variant A
+- Promo A: Control/Variant A - One Col Variant 
 
-- Promo B: Test/Variant B
+- Promo B: Test/Variant B - Multistep Varian
 
-- Promo C: Ad Blocker
+- Promo C: Ad Blocker - One Col Adblocker Variant
 
-- Promo D: RAW Test Logic
+- Promo D: RAW Test Logic - Controls the test logic
 
-### 3.1 Promo A: Control
+### 3.1 Promo A: One Col Variant 
 
 1. In WordPress, go to **Promotions** and create a new promo.
 
-2. Configure it as you normally would for your standard Multistep Promo:
+2. Configure it as you normally would for your standard One-Col Promo:
 
    1. Choose visibility “Turned On” to start
 
-   2. Select the first Promo-Type:
+   2. Select EN Lightbox Promo-Type and update all the relevant fields. 
 
-      - Title should follow easy to follow naming conventions
+      - Naming Recommendation: Title should follow easy to follow naming conventions
 
         - **[Year] - OneVsMultistep - Promo Variant A - 1 of 3**
 
-      - Update Content: Headline, copy, imagery
+      - Set the correct display rules: Target the correct pages, audiences, and conditions
+      
+      - Regularly "Save" your updates by saving your Draft/Publishing /or Updating the Promo. 
+      
+      -To make sure the Promo is not yet visible, change the visibility under the Title of the Promo. Select "Turned Off" 
 
-      - Add the new Engaging Networks Multistep form’s URL: paste the URL for **Form A – Control**
+      - Please note, when making any updates to the Promo, you must save your work reguarlary by ensuring that you are "updateing" the promo. If you have not updated the promo your changes will not take place. 
 
-      - Display rules: Target the correct pages, audiences, and conditions
+      - To see and test your Promo, it must be "Turned on" and "Publised" 
+      
 
 3. Save and **note the Post ID** for this promo.
 
    - This is the numeric ID in the URL or in the admin (4Site will use this in the controller code).
+
+   - This can be found in two different places. In the URL of the Promo edit screen
+
+   - The Promotion Dashboard - Look for the colomn "Promo" and save the ID with which varation it is associated with. 
 
 ### 3.2 Promo B: Variant
 
