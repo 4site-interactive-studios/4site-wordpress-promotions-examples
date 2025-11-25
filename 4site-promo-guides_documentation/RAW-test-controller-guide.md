@@ -12,9 +12,9 @@ Only **three placeholder values** must be replaced:
 
 | Placeholder | Meaning | Replace With |
 |------------|----------|-----------------------------|
-| `4C4C4C` | AdBlocker fallback | AdBlocker Promo ID |
 | `4A4A4A` | Variation A (Control) | Control Promo ID |
 | `4B4B4B` | Variation B (Test) | Test Promo ID |
+| `4C4C4C` | Variation C AdBlocker fallback | AdBlocker Promo ID |
 
 No other code changes are required.
 
@@ -23,10 +23,9 @@ No other code changes are required.
 ## 1. Prerequisites
 
 Before updating the script, ensure you have created:
-
-- **AdBlocker Promo**
 - **Variation A (Control) Promo**
 - **Variation B (Test) Promo**
+ **Variation C AdBlocker Promo**
 
 Each promo has a unique **Promo ID** in WordPress.
 
@@ -44,12 +43,12 @@ Each promo has a unique **Promo ID** in WordPress.
 
 The number after `post=` is the **Promo ID**.
 
-Record the IDs:
+Record the IDs (update the ##### with your real Promo IDs)
 
 ```
-AdBlocker Promo ID = XXXXX
-Variation A Promo ID = YYYYY
-Variation B Promo ID = ZZZZZ
+Variation A Promo ID = #####
+Variation B Promo ID = #####
+Variation C AdBlocker Promo ID = #####
 ```
 
 ---
@@ -58,28 +57,29 @@ Variation B Promo ID = ZZZZZ
 
 In WordPress → Promotions:
 
-1. Open the promo labeled **REFERENCE - TESTING RAW Logic** or find the [template](promo-ab-test-logic.js) here to update
+1. Open the promo labeled **REFERENCE - TESTING RAW Logic** or find the [template](/4site-promo-guides_documentation/OG-promo-test-controller-logic.js) here copy and paste into a code editor like VSCode or a plain text editor to update.
 2. If in Promo - scroll down to the JavaScript inside:
 
 Near the top, you will see the placeholders:
 
 ```js
-// ADBLOCKER = Replace 4C4C4C
 // Variation A (CONTROL) = Replace 4A4A4A
 // Variation B (TEST) = Replace 4B4B4B
+// Variation C ADBLOCKER = Replace 4C4C4C
+
 ```
 
 ---
 
 ## 4. Replace the AdBlocker Placeholder (`4C4C4C`)
 
-Search for:
+In the text initiate a search and replace. Search for:
 
 ```
 4C4C4C
 ```
 
-Replace **every instance** with your **AdBlocker Promo ID**.
+Replace **every instance** with your actual **AdBlocker Promo ID**.
 
 Example:
 
@@ -88,9 +88,12 @@ Example:
 + window.triggerPromotion(67890);
 ```
 
-> **Important:** Use numbers only — no quotes.
+> **Important:** Update with the exact number from the Promo ID, use numbers only no quotes, no spaces or special charaters. 
+
+You should not need to update any code manually.
 
 ---
+Repeat for all the varations
 
 ## 5. Replace Variation A (Control) Placeholder (`4A4A4A`)
 
@@ -120,11 +123,18 @@ Replace **every instance** with the Test Promo ID.
 
 Using sample IDs:
 
-- **AdBlocker** = `67890`
 - **Variation A (Control)** = `12345`
 - **Variation B (Test)** = `23456`
+- **AdBlocker** = `67890`
 
-```html
+
+Search and replace Key: 
+Variation A (CONTROL) Replace =  4A4A4A
+Variation B (TEST) Replace  =  4B4B4B
+ADBLOCKER Replace = 4C4C4C
+
+
+```javascript
 <script>
   function checkForAdblocker() {
     document.body.insertAdjacentHTML(
@@ -170,58 +180,8 @@ Using sample IDs:
 ```
 
 ---
+## 8. Once your new text has been updated save a version for yourself to keep. Return to the [How to Run A/B Tests with the 4Site Promo Plugin](/FWW/fww-test-guide.md) to finish the last steps of configure the promo and test. 
 
-## 8. QA Checklist
+Important to note: when copying and pasting the code from the file. Make sure you include the openeing <script> and closing </script> and that no lines of the comments are missing. 
 
-### A. Normal Browser Testing
-- [ ] Control appears  
-- [ ] Test appears  
-- [ ] Correct EN forms load  
-- [ ] No console errors  
 
-### B. With Ad Blocker Enabled
-- [ ] AdBlocker version displays  
-
-### C. Environment
-- [ ] RAW promo set to **Trigger Immediately**  
-- [ ] All promos published and active  
-- [ ] EN pages live and loading correctly  
-
----
-
-## 9. Troubleshooting
-
-### Issue: Only one promo ever loads
-- RAW promo may not be set to Immediate  
-- Variation promos may not be active  
-- IDs may be incorrect  
-
-### Issue: AdBlocker fallback never appears
-- Browser is not blocking test element  
-- AdBlocker ID incorrect  
-- Try incognito or another browser  
-
-### Issue: “undefined” or “NaN” in console
-- IDs contain quotes or invalid characters  
-
-Correct format:
-
-```js
-window.triggerPromotion(12345);   // ✔️ correct
-window.triggerPromotion("12345"); // ❌ incorrect
-```
-
-### Issue: Both promos appear at once
-- Another promo is targeting the same pages  
-
----
-
-## 10. Contact
-
-If you need help validating promo IDs or troubleshooting, contact the 4Site team.  
-We can review:
-- Raw JS setup  
-- Promo IDs  
-- EN URLs  
-- GA4 tracking  
-- Debug logs  

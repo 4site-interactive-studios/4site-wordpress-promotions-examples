@@ -1,11 +1,12 @@
+// Template Code for Running A/B tests in 4Site's Promo Plugin - Follow comments to know what needs to be updated. 
+// Copy paste everything after this comment, including the <script> and </script> tags.
 <script>
 
 // Template Code for Running A/B tests in 4Site's Promo Plugin - Follow comments to know what needs to be updated. 
-  
 // Designate your promos for easy copy/paste code update:
-// Promo ADBLOCKER = Find 4C4C4C and replace with ADBLOCKER Promo ID
 // Promo Varation A (CONTROL) = Find 4A4A4A and replace with Variation A Promo ID 
 // Promo Varation B (TEST) = Find 4B4B4B and replace with Variation B Promo ID 
+// Promo ADBLOCKER = Find 4C4C4C and replace with ADBLOCKER Variation
 
 
 
