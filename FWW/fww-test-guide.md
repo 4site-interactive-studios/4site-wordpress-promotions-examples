@@ -13,11 +13,11 @@ The structure we are aiming for is when setting up an A/B test within the Promot
 
 - **Raw “Test Controller” Promo:** JavaScript that randomly assigns visitors to A or B and handles the ad blocker fallback
 
-4Site will provide or review the [JavaScript](/4site-promo-guides_documentation/OG-promo-test-controller-logic.js) for the Test Controller promo. 
+4Site will provide or review the [JavaScript](/fww/OG-promo-test-controller-logic.js) for the Test Controller promo. 
 
 This guide's main focus is on setting up the Engaging Networks forms and the three promo variations.
 
-Please see [RAW "Test Controller" guide](/4site-promo-guides_documentation/RAW-test-controller-guide.md) to review how to edit the javascript that enables the test.
+Please see [RAW "Test Controller" guide](/fww/RAW-test-controller-guide.md)) to review how to edit the javascript that enables the test.
 
 
 ---
