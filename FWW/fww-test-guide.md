@@ -17,7 +17,7 @@ The structure we are aiming for is when setting up an A/B test within the Promot
 
 This guide's main focus is on setting up the Engaging Networks forms and the three promo variations.
 
-Please see [RAW "Test Controller" guide](/FWW/RAW-test-controller-guide.md)) to review how to edit the javascript that enables the test.
+Please see [RAW "Test Controller" guide](/FWW/RAW-test-controller-guide.md) to review how to edit the javascript that enables the test.
 
 
 ---
@@ -213,11 +213,11 @@ The Raw promo is where the A/B logic lives. This promo does not show content dir
 
 ### Add the JavaScript Controller Code
 
-- Here is the RAW Javascript Template: [JavaScript](/4site-promo-guides_documentation/OG-promo-test-controller-logic.js)
+- Here is the RAW Javascript Template: [JavaScript](/FWW/OG-promo-test-controller-logic.js)
 
 Your steps:
 
-1. Copy and paste this javascript and edit following these steps carefully. [RAW "Test Controller" guide](/4site-promo-guides_documentation/RAW-test-controller-guide.md)
+1. Copy and paste this javascript and edit following these steps carefully. [RAW "Test Controller" guide](/FWW/RAW-test-controller-guide.md)
 
 2. Once you have made those updates to the code you can past it into the "Javascript" promo field. 
 
