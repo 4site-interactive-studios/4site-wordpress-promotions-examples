@@ -21,11 +21,12 @@
 <script src="/wp-content/uploads/stupski-promo.js?v=8"></script>
 
 ```
-!!! No HTML Needed
-No HTML needed for this banner
-!!!
 
-# CCC
+
+> [!NOTE]
+> 	No HTML needed for this banner	!!!
+
+# CSS
 ``` css
 @import url("https://use.typekit.net/gaw2uvu.css");
 
