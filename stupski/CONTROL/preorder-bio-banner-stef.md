@@ -137,7 +137,7 @@ font-size: clamp(60px, 5vw, 82px);
 
 ```
 
-```
+```css 2
 /* --- Stef Added from the Countdown Promo - Control Styled CTA Button (ORIGINAL BANNER 1 STYLE) --- */
 
 .fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta {
