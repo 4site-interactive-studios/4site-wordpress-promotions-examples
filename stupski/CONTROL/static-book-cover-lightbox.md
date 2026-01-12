@@ -106,6 +106,7 @@ function stupski_trigger_promo_modal(template_id) {
     }
 }
 </script>
+```
 --------------------------------------------------
 # HTML
 ```html
