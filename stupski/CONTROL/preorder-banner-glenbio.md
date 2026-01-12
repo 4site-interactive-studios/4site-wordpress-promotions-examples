@@ -53,32 +53,35 @@
 	padding-left: 30px;
 }
 [promotion-id="control-preorder"] .fes-content__inner__button {
-	    width: fit-content;
+    width: fit-content;
     text-align: center;
-    padding: 0 5px 0;
-    color: #ffffff;
+    padding: 12px 24px;
+    color: #1f3245;
     margin: 0 auto;
-    font-family: apotek-variable, sans-serif !important;
-    background: unset;
+    font-family: "Averta-Regular", sans-serif;
+    background: #B6E97F;
     border: none;
-    font-size: clamp(38px, 5vw, 48px);
-    font-style: normal;
+    font-size: 20px;
+    font-style: italic;
     font-weight: 600;
-    line-height: 100%;
-    text-transform: uppercase;
+    /* line-height: 100%; */
+    /* text-transform: uppercase; */
     font-variation-settings: "wdth" 50, "wght" 760 !important;
     letter-spacing: 1px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-thickness: 4px;
     text-underline-offset: 9px;
-    margin-top: -6px;
-
+    /* margin-top: -6px; */
+    border-radius: 1000px;
 }
-[promotion-id="control-preorder"] .fes-content__inner__button:hover {
+
+/*[promotion-id="control-preorder"] .fes-content__inner__button:hover {
 	text-decoration: none;
 	transform: unset;
 	background-color: unset;	
 }
+*/
+
 [promotion-id="control-preorder"] .fes-container__inner__text {
 	width: unset;
 	flex-direction: row;
@@ -138,5 +141,6 @@ font-size: clamp(60px, 5vw, 82px);
     padding-bottom: 16px;
 }
 }
+
 
 ```
