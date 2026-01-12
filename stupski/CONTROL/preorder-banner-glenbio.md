@@ -23,8 +23,12 @@
 ```
 
 
+
+
 > [!NOTE]
 > 	No HTML needed for this banner	!!!
+
+
 
 # CSS
 ``` css
@@ -133,72 +137,6 @@ font-size: clamp(60px, 5vw, 82px);
 [promotion-id="control-preorder"] .fes-content__inner__button {
     padding-bottom: 16px;
 }
-}
-
-```
-
-```
-/* --- Stef Added from the Countdown Promo - Control Styled CTA Button (ORIGINAL BANNER 1 STYLE) --- */
-
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta {
-    flex-shrink: 0;
-}
-
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-    font-weight: 500;
-    font-style: italic;
-    font-size: 17px;
-    line-height: 1;
-    padding: 17px 24px;
-    border-radius: 1000px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    white-space: nowrap;
-    /* Original Colors */
-    background-color: #b6e97f;
-    color: #1f3245;
-}
-
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link:hover {
-    text-decoration: none;
-    color: #1f3245 !important;
-}
-
-/* Original Media Queries for CTA sizing */
-@media (max-width: 720px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-        font-size: 15px;
-        padding: 12px 18px;
-    }
-}
-@media (max-width: 510px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-        font-size: 14px;
-        padding: 8px 14px;
-    }
-}
-
-
-/* --- Mobile Specific Text --- */
-.fs-promotion.fs-promotion--pushdown-countdown .mobile-text {
-    position: absolute;
-    top: 0.25rem;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 0.625rem;
-    font-weight: 700;
-    color: var(--cyber-accent);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-@media (min-width: 768px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .mobile-text {
-        display: none;
-    }
 }
 
 ```
