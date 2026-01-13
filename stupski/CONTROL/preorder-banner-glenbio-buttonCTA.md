@@ -1,4 +1,4 @@
-//CONTROL Preorder Banner - OG - before Button Added 
+//CONTROL Preorder Banner - Button Added to the Banner located on Glen's Bio Page: https://cln.sh/wZWPgzpw
 
 [https://stupski.org/wp-admin/post.php?post=6570&action=edit](https://stupski.org/wp-admin/post.php?post=6570&action=edit)
 
@@ -49,32 +49,37 @@
 	padding-left: 30px;
 }
 [promotion-id="control-preorder"] .fes-content__inner__button {
-	    width: fit-content;
+ width: fit-content;
     text-align: center;
-    padding: 0 5px 0;
-    color: #ffffff;
+    padding: 14px 50px;
+    color: #1f3245;
     margin: 0 auto;
-    font-family: apotek-variable, sans-serif !important;
-    background: unset;
+    font-family: "Averta-Regular", sans-serif;
+    background: #B6E97F;
     border: none;
-    font-size: clamp(38px, 5vw, 48px);
-    font-style: normal;
+    font-size: 20px;
+    font-style: italic;
     font-weight: 600;
-    line-height: 100%;
+    /* line-height: 100%; */
     text-transform: uppercase;
     font-variation-settings: "wdth" 50, "wght" 760 !important;
     letter-spacing: 1px;
-    text-decoration: underline;
+    /* text-decoration: underline; 
     text-decoration-thickness: 4px;
-    text-underline-offset: 9px;
-    margin-top: -6px;
+    text-underline-offset: 9px;*/
+    /* margin-top: -6px; */
+    border-radius: 1000px;
 
 }
+
 [promotion-id="control-preorder"] .fes-content__inner__button:hover {
-	text-decoration: none;
-	transform: unset;
-	background-color: unset;	
+    text-decoration: underline; 
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+
 }
+
+
 [promotion-id="control-preorder"] .fes-container__inner__text {
 	width: unset;
 	flex-direction: row;
@@ -97,7 +102,7 @@ font-size: clamp(60px, 5vw, 82px);
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    padding: 0 32px 0 0;
+    padding: 0 20px 0 10px;
 }
 
 @media (max-width: 1200px) {
@@ -137,68 +142,5 @@ font-size: clamp(60px, 5vw, 82px);
 
 ```
 
-```css 2
-/* --- Stef Added from the Countdown Promo - Control Styled CTA Button (ORIGINAL BANNER 1 STYLE) --- */
+------------------------------
 
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta {
-    flex-shrink: 0;
-}
-
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-    font-weight: 500;
-    font-style: italic;
-    font-size: 17px;
-    line-height: 1;
-    padding: 17px 24px;
-    border-radius: 1000px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    white-space: nowrap;
-    /* Original Colors */
-    background-color: #b6e97f;
-    color: #1f3245;
-}
-
-.fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link:hover {
-    text-decoration: none;
-    color: #1f3245 !important;
-}
-
-/* Original Media Queries for CTA sizing */
-@media (max-width: 720px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-        font-size: 15px;
-        padding: 12px 18px;
-    }
-}
-@media (max-width: 510px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .fs-promotion__inner__cta__link {
-        font-size: 14px;
-        padding: 8px 14px;
-    }
-}
-
-
-/* --- Mobile Specific Text --- */
-.fs-promotion.fs-promotion--pushdown-countdown .mobile-text {
-    position: absolute;
-    top: 0.25rem;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 0.625rem;
-    font-weight: 700;
-    color: var(--cyber-accent);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
-@media (min-width: 768px) {
-    .fs-promotion.fs-promotion--pushdown-countdown .mobile-text {
-        display: none;
-    }
-}
-
-```
